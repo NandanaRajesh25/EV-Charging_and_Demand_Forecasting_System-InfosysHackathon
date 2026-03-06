@@ -1,6 +1,6 @@
-# EV Charging Demand Forecast Dashboard - React Version
+# EV Charging Demand Forecast Dashboard 
 
-This is a React-based conversion of your original Streamlit EV charging dashboard with all the same functionality.
+This is a EV charging station display dashboard to optimally define routes to charging stations along with a demand forecasting interface of EV Stations for stakeholders .
 
 ## 🚀 Features
 

